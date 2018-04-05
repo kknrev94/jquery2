@@ -1,0 +1,46 @@
+.my-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: outset;
+    width: 100vw;
+    background-color: white;
+}
+.container-item {
+    height: 70px;
+    margin: 10px;
+    padding: 0px;
+}
+
+.myFont {
+
+    font-size: 20px;
+    color: black;
+    padding-right: 7%;
+    font-weight: bold;
+}
+
+.myFont2{
+    font-size: 20px;
+    color: black;
+    padding-right: 7%;
+    font-weight: lighter;
+}
+.align{
+    padding-left: 5px;
+}
+@media screen and (min-width: 768px){
+    .myFont{
+        padding-right: 8%
+    }
+    .myFont2{
+        padding-right: 8%
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+    .myFont{
+        padding-right: 10px;
+    }
+    .myFont2{
+        padding-right: 10px;
+    }
+}
